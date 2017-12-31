@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../assets/images/car.jpg);
+  background-size: cover;
+  color: #ffff;;
+  font-family: 'Scope One', serif;
+}
+
+.row {
+  height: 33.3vh;
+}
+
+/*  botones*/
+.uppercase-color {
+  background: none;
+  border: 1px solid #ffff;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 120px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.uppercase-color:hover {
+  border: 1.5px solid #EB098B;
+  color: #EB098B;
+  font-size: 1.5rem;
+  transition: 500ms;
+}
+
+.uppercase-color:active {
+  border: 1px solid #ffff;
+  color: #ffff;
+  font-size: 1.6rem;
+}
+
+/*  logos*/
+.container-logo {
+  position: relative;
+}
+
+.logo-white {
+  display: block;
+  margin: auto;
+  width: 70px;
+}
+
+.logo-pink-one {
+  width: 160px;
+  position: absolute;
+  top: 75px;
+  left: 40.4%;
+}
+
+.logo-pink-two {
+  width: 170px;
+  position: absolute;
+  top: 0px;
+  left: 15.7%;
+}

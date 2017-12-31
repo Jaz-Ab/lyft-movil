@@ -1,0 +1,31 @@
+/*  Fuentes
+font-family: 'Dosis', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom right, #530060, #E50A89);
+}
+
+.row {
+  height: 33.3vh;
+}
+
+.gif {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  width: 60px;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 200px;
+}

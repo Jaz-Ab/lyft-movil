@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  height: 15vh;
+}
+
+/*  icon para regresar*/
+.circle {
+  background-image: url(../assets/images/back.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  padding: 10px;
+  width: 30px;
+}
+
+.circle:hover {
+  border: 2px solid black;
+}
+
+.circle:active {
+  height: 28px;
+  width: 28px;
+}
+
+/*  titulo*/
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/*  div-list*/
+
+.list {
+  border: 1px solid black;
+  height: 35px;
+  padding-left: 5px;
+  padding-right: 3px;
+}
+
+/*  banderas-select*/
+
+.container-flags {
+  display: inline-block;
+  list-style: none;
+}
+
+.hiden {
+  display: none;
+}
+
+.flag {
+  background: #ffff;
+  height: 25px;
+  padding: 3px 5px;
+  width: 40px;
+}
+
+.flag:hover {
+  background: #2B2B2B;
+  height: 28px;
+}
+
+/*  icono desplegar*/
+
+.icon {
+  left: 65%;
+  position: absolute;
+  top: 7px;
+}
+
+.icon:hover {
+  color: purple;
+  font-size: 15px;
+}
+
+.icon:active {
+  color: black;
+  font-size: 13px;
+}
+
+/*  input phone*/
+
+.phone-container {
+  border: 1px solid black;
+  display: inline-block;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  width: 210px;
+}
+
+.input-phone {
+  border: none;
+  height: 32px;
+  padding-left: 8px;
+  width: 208px;
+}
+
+/*  eliminar flechas del input-number*/
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.text {
+  margin-top: 18px;
+  text-align: center;
+}
+
+/*  boton next*/
+
+.btn-next {
+  background: #A80077;
+  color: #ffff;
+  font-size: 1.4rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.btn-next:active {
+  background: #474747;
+  color: #ffff;
+  font-size: 16px;
+}
+
+.btn-next:hover {
+  background: #DF0A89;
+  color: #ffff;
+}

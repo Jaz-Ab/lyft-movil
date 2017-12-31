@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom right, #530060, #E50A89);
+}
+
+/*  rows*/
+.one {
+  height: 15vh;
+}
+
+.two {
+  height: 40vh;
+}
+
+.three {
+  height: 45vh;
+}
+
+/*  images*/
+
+.gif {
+  display: block;
+  margin: auto;
+  position: absolute;
+  right: -40px;
+  width: 450px;
+}
+
+.container-gif {
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  width: 200px;
+}
